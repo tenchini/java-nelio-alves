@@ -6,7 +6,7 @@ import modulo08.aula74a76.entities.Product;
 
 public class Main {
   public static void main(String[] args) {
-    modulo08.aula74a76.entities.Product product = new Product();
+    Product product = new Product();
 
     System.out.println("Enter product data: ");
 
