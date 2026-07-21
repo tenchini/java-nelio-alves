@@ -5,7 +5,6 @@ public class Product {
   private double price;
   private int quantity;
 
-  // construtor padrão
   public Product() {
   }
 
@@ -21,7 +20,7 @@ public class Product {
   }
 
   public String getName() {
-    return this.name;
+    return name;
   }
 
   public void setName(String name) {
@@ -29,7 +28,7 @@ public class Product {
   }
 
   public double getPrice() {
-    return this.price;
+    return price;
   }
 
   public void setPrice(double price) {
@@ -37,7 +36,7 @@ public class Product {
   }
 
   public int getQuantity() {
-    return this.quantity;
+    return quantity;
   }
 
   public double totalValueInStock() {
