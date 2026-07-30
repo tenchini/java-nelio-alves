@@ -3,7 +3,7 @@ package modulo09.aula89.exercicios.entities;
 import java.util.Scanner;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BankAccount account;
 
